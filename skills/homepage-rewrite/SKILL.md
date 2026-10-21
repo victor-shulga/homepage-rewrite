@@ -39,7 +39,7 @@ Answer the user in their language. Write the site copy in the language of the si
 Pull the homepage text with whatever web tool the session has (a fetch tool, Firecrawl or
 similar). Capture every headline, subhead, CTA, stat, logo, testimonial and link. Follow the
 links behind cases and testimonials: proof that sits on an inner page counts as proof the
-homepage could use. Treat the current copy as raw material, not as the answer.
+homepage could use. Treat the current copy as raw material for the rewrite.
 
 ## Step 2. Proof bank (before writing anything)
 
@@ -74,14 +74,14 @@ Close with the **three costliest gaps** across both tracks, each as
 Templates in `reference/copy-blocks.md`. Every block gets a one-line rationale naming the canvas
 cell (clarity) and the proof-bank row (trust) it uses.
 
-- **Hero**: service category + H1 (a capability for a named audience, not an adjective) + sub
+- **Hero**: service category + H1 (a capability for a named audience) + sub
   (how it works, plus the benefit) + CTA + trust line (one named result or a review score, with
   its link).
 - **Logos**: paying clients only, with permission.
 - **Problem**: current way, limitations, problems. Keep what already works.
 - **Solution**: three arguments, each with its own matching case or number from the proof bank.
 - **Lower-half sections**, chosen per company: cases, testimonials, services, industries,
-  why us, pricing, FAQ, calendar or form. A section with no real content is cut, not stubbed.
+  why us, pricing, FAQ, calendar or form. A section with no real content is cut.
 
 If the current page already passes a block, say "keep" and move on. Do not rewrite for the sake
 of it.
@@ -108,8 +108,9 @@ of it.
 
 Edit the copy for AI tells: negative parallelism ("not X but Y"), rule-of-three punch lines,
 em-dash cascades, hype words. Use `anticopywriting-ai` if installed. Then save one markdown file
-`<company>-homepage-rewrite-<date>.md` in the current folder (or a Google Doc if a Drive
-connector is available) and give the user the scores, the three gaps, the new hero and the path.
+`<company>-homepage-rewrite-<date>.md` in the current folder with these sections in order: proof
+bank, canvas, diagnosis, new copy, remove list, checklist, questions. The proof bank and canvas
+sections are what `page-builder` reuses for inner pages. Give the user the scores, the three gaps, the new hero and the path.
 Do not publish anything to the live site yourself.
 
 ## Rules
@@ -124,8 +125,8 @@ Do not publish anything to the live site yourself.
 - `website-audit`: technical and mobile audit of the same site. Run it after the rewrite ships.
 - `page-builder`: service, industry and case pages built from the same canvas and proof bank.
 - `website-copy-reframe` (pack `marketing-engine-skills`): messaging audit and service pages.
-- `website-engine` (pack `marketing-engine-skills`): runs homepage-rewrite → page-builder →
-  website-audit as one flow.
+- `website-engine` (pack `marketing-engine-skills`): one flow from a baseline audit through this
+  skill and page-builder to a second audit.
 
 ## Reference files
 

@@ -1,4 +1,4 @@
-# Trust track — homepage rewrite, second pass
+# Trust track: the second pass of a homepage rewrite
 
 The clarity track makes a visitor understand **what, for whom, and what result** in 5 seconds.
 The trust track makes them **believe it**. A clear page with unbacked claims reads as a pitch;
@@ -16,15 +16,15 @@ and leaves the slot out. It never invents a case, a number, a quote or a logo.
 Every case on the homepage = **who** (named client or a precise descriptor if under NDA) +
 **result as a number** + **timeframe**.
 - weak: "We helped a fintech company grow."
-- strong: "Payments startup, 40 → 140 demo calls a quarter in 6 months."
+- strong (fictional): "Payments startup, 40 → 140 demo calls a quarter in 6 months."
 If the client allows the name, use it; an NDA descriptor must still be specific
-(segment + size + geo). A case without a number goes to the case page, not the homepage.
+(segment + size + geo). A case without a number goes to the case page only.
 
 ### T2. Logos and testimonials: real only
 - Logo strip = clients who actually paid, with permission. No tool/vendor logos posing as
   clients, no "as seen in" without a link to the mention.
 - Testimonial = quote + full name + role + company (+ photo or a profile link). An anonymous
-  "— CEO, SaaS company" quote counts as zero.
+  quote signed only "CEO, SaaS company" counts as zero.
 - Independent review links beat on-site quotes: Clutch, G2, Trustpilot, LinkedIn
   recommendations (`linkedin.com/in/<id>/details/recommendations`). Link at least one if it
   exists.
@@ -70,8 +70,8 @@ Score each rule 0–2 (0 = broken, 1 = partial, 2 = solid). Max 12.
 
 Current hero on a fictional dev shop:
 > "Innovative software solutions for forward-thinking businesses. Trusted by industry leaders."
-> Logo strip: stripe.com and linear.app logos (they are tools the team uses, not clients).
-> Below: "Case studies — coming soon".
+> Logo strip: stripe.com and linear.app logos (tools the team uses, presented as clients).
+> Below: "Case studies: coming soon".
 
 Diagnosis: T1 0 (no case), T2 0 (tool logos as clients), T3 0 ("coming soon"), T4 0 (the
 "trusted by" claim has no proof), T5 0 (nothing to click), T6 0 ("innovative",

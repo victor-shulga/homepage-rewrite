@@ -24,7 +24,7 @@ screenshot to show. The deliverable has to be named in words.
 
 ## Step 1: The minimum site a service company needs
 
-The homepage routes people; it does not carry the whole sale. Before rewriting it, check that the
+The homepage routes people to the pages that close the sale. Before rewriting it, check that the
 pages it routes to exist:
 
 1. **Homepage**: value proposition, capabilities, the problems you solve, client logos.
@@ -47,7 +47,7 @@ Lay out candidate segments on three axes: **company type × person or department
 - Messaging tied to a situation that many company types share is **horizontal**.
 - For a high-ticket service with a long sales cycle and a modest marketing budget, a horizontal
   message rarely gets enough reach to work. Start vertical. (The original framework suggests a budget threshold for
-  this; treat any such number as a rule of thumb, not data.)
+  this; treat any such number as a rule of thumb.)
 - A situation can be a process the buyer is running or an outcome they are chasing. Either way,
   the buyer must be spending effort on it now.
 
@@ -64,12 +64,12 @@ person close enough to the problem to feel its cost, with the time and motive to
 colleagues, handle procurement and keep the deal moving. The champion is often, but not always,
 the person who will work with you day to day.
 
-Describe what the champion is **doing**, not what they want in the abstract. "Grow revenue" and
+Describe what the champion is **doing** this week. "Grow revenue" and
 "save time" are outcomes and too high-level to write against. Break them into activities:
 - "Stay compliant" becomes: run staff reviews, standardise procedures, prepare audit evidence.
 - "Ship more projects" becomes: scope incoming work, staff the team, check drawings before issue.
 
-Keep activities **tool-agnostic**: describe the task, not the software used to do it. Then strike
+Keep activities **tool-agnostic**: describe the task itself and leave the software out. Then strike
 out every activity your service does not touch, and keep detailing what remains until it reads as
 slightly too specific. That is the level at which a buyer recognises themselves.
 
@@ -78,8 +78,8 @@ slightly too specific. That is the level at which a buyer recognises themselves.
 For one primary use case, write down:
 - **Current way**: how the champion handles the situation today (in-house team, freelancers,
   another vendor, doing nothing).
-- **Limitations**: neutral facts about that current way. A limitation is not a complaint; it is a
-  property ("the in-house team is fully booked until Q3").
+- **Limitations**: neutral facts about that current way. A limitation is a neutral property of the
+  current way ("the in-house team is fully booked until Q3").
 - **Problems**: what each limitation costs the champion ("so new projects slip and the client
   starts asking questions").
 

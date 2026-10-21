@@ -32,11 +32,14 @@ Trust: <logos · number of projects · geography · certification · years>
 *Rationale:* H1 = top row + key capability. Sub = feature + benefit. Trust = proof from the proof
 bank.
 
-**Worked example (a fractional GTM consultant's own homepage)**
-- Category: *Fractional GTM for B2B service companies*
-- H1: *Generate pipeline and close more deals*
-- Sub: *With SOPs, frameworks, templates and an operator who has hit these targets before, so new
-  revenue comes from leads that fit your ICP.*
+**Worked example (fictional QA outsourcing company; every proof row is invented for illustration)**
+- Category: *QA outsourcing for B2B SaaS*
+- H1: *Release every two weeks without a regression reaching your customers*
+- Sub: *A dedicated QA team joins your sprint in 10 days, automates the regression suite and signs
+  off each release, so your developers stop testing their own code.*
+- CTA: *Get a QA estimate*
+- Trust line: *Proof bank row 3: HR-tech platform, escaped bugs 14 → 2 per release in 5 months ·
+  row 7: 4.8 on Clutch (link)*
 
 ---
 

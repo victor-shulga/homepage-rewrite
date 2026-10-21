@@ -1,6 +1,6 @@
 # Proof bank: inventory before writing
 
-Step 2, shared by all modes. Every claim on the site must trace back to a real, sourced proof
+Step 2 of the rewrite, done before any copy. Every claim on the site must trace back to a real, sourced proof
 point. Build this table first; writing then becomes assembly instead of invention. Flag anything
 without a source and do not ship it. Tag each proof point with the offer or vertical it supports,
 so service pages pull the right one.

@@ -15,6 +15,8 @@ a case, a number, a quote or a logo.
 
 One markdown file:
 
+0. **Proof bank and canvas**: every case, number and testimonial found on your site, with its
+   source, plus the copy canvas. Inner pages reuse them.
 1. **Diagnosis**: clarity score 0-50, trust score 0-12 (rules T1-T6), the three costliest gaps.
 2. **New copy per block**: hero, logos, problem, solution, lower-half sections. Each block has a
    one-line rationale saying which proof it uses.
@@ -50,7 +52,7 @@ Add `-g` to make it available in every project. Then in Claude Code:
 - [`page-builder`](https://github.com/victor-shulga/page-builder): service, industry and case
   pages from the same proof bank.
 - `website-engine` in [`marketing-engine-skills`](https://github.com/victor-shulga/marketing-engine-skills):
-  runs homepage-rewrite → page-builder → website-audit as one flow.
+  one flow: a baseline audit, then homepage-rewrite, then page-builder, then the audit again.
 
 ## License
 
