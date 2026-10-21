@@ -50,7 +50,7 @@ rewrite done. A "see our cases" link that lands on a list of three logos fails.
 
 ### T6. Voice that sounds like a person
 Adjectives in place of proof are a trust leak (see the buzzword kill-list in
-`copy-blocks.md`). Run the final copy through `anticopywriting-ai`: no negative parallelism,
+`copy-blocks.md`). Edit the final copy for AI tells (with `anticopywriting-ai`, if installed): no negative parallelism,
 no rule-of-three punch lines, no em-dash cascades, no "cutting-edge / world-class".
 
 ## Diagnosis table (trust half)
@@ -82,6 +82,13 @@ Rewrite:
 > H1: Ship the roadmap your sales team already promised
 > Sub: A senior squad joins your sprint in 2 weeks and owns delivery end to end.
 > CTA: Get a delivery estimate
-> Trust line: 14 SaaS clients · Series A analytics platform: release cycle 6 → 2 weeks · 4.9 on Clutch (link)
+> Trust line: Series A analytics platform: release cycle 6 → 2 weeks · 4.9 on Clutch (link)
 
-Tool logos removed. The "coming soon" block is gone until two real cases exist.
+Where the trust line comes from (all fictional, like the rest of the example): Step 1 followed
+the links off the homepage and found both items on inner pages the homepage never used.
+- Proof bank row 2: the case page `/cases/analytics-platform`, release cycle 6 → 2 weeks.
+- Proof bank row 5: the Clutch profile linked from the footer, 4.9.
+
+The client count is left out: nothing on the site states it, so it goes to the questions list
+("How many SaaS clients have you shipped for, and may we say so?"). Tool logos removed. The
+"coming soon" block is gone until two real cases exist.
