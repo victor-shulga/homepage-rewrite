@@ -99,8 +99,7 @@ reasons to act now.
 ## Buzzword swap list (English copy)
 
 Filler phrases signal "average" and cost trust. When one shows up in scraped copy or in a draft,
-replace it with the proof it is standing in for. Deleting it is not enough; the point is to force
-a specific claim.
+replace it with the proof it is standing in for, so the sentence ends up making a specific claim.
 
 | Phrase | Replace with |
 | :-- | :-- |

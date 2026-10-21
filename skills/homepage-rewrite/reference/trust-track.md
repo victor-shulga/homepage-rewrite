@@ -30,7 +30,7 @@ If the client allows the name, use it; an NDA descriptor must still be specific
   exists.
 
 ### T3. No placeholders
-Delete, never ship: "coming soon", "soon", empty cards, `0+` counters, lorem ipsum, a nav
+Delete before shipping: "coming soon", "soon", empty cards, `0+` counters, lorem ipsum, a nav
 link to an empty section, a blog with one post from two years ago, a "Case studies" page with
 no cases. Each one tells the visitor the company is not finished. A missing block costs less
 than a visible gap.

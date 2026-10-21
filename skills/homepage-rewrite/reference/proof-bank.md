@@ -1,7 +1,7 @@
 # Proof bank: inventory before writing
 
 Step 2 of the rewrite, done before any copy. Every claim on the site must trace back to a real, sourced proof
-point. Build this table first; writing then becomes assembly instead of invention. Flag anything
+point. Build this table first, so writing becomes assembly from sourced parts. Flag anything
 without a source and do not ship it. Tag each proof point with the offer or vertical it supports,
 so service pages pull the right one.
 
