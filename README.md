@@ -1,92 +1,60 @@
 # homepage-rewrite
 
-A **Claude Code skill** that rewrites the homepage of a B2B service company (agency,
-outsourcing, consulting) on two tracks at once.
+A Claude Code skill that rewrites the homepage of a B2B service company (agency, outsourcing,
+consulting) on two tracks.
 
-- **Clarity.** A visitor from your target market understands what you sell, to whom, and
-  with what result from the first screen, in about five seconds.
-- **Trust.** They believe it: every promise has a named case with a number next to it,
-  logos and testimonials are real and attributed, and there is no "coming soon" anywhere.
+- **Clarity**: a visitor from your target market understands what you sell, to whom and with what
+  result from the first screen alone.
+- **Trust**: they believe it, because every promise has a named case with a number next to it,
+  logos are real clients, testimonials have names, and there are no "coming soon" placeholders.
 
-Most service-company homepages do one of the two. Some read like a pitch nobody can check;
-others are a wall of logos with no offer on top. The skill scores both, then writes copy you
-can paste into the site.
+It builds a proof bank from what is already on your site before writing a word, and never invents
+a case, a number, a quote or a logo.
 
 ## What you get
 
-One markdown file, `<company>-homepage-rewrite-<date>.md`:
+One markdown file:
 
-→ **proof bank**: every number, case, testimonial and review link the company actually has,
-marked verified or not (unverified items never reach the copy)
-
-→ **canvas**: one primary audience, the champion who pushes the deal, their situation, current
-way, limitations, problems, and the capabilities, features and benefits that answer them
-
-→ **diagnosis**: clarity 0–50 (five buyer questions + a 5-second test of the first screen),
-trust 0–12 (six rules), and the three costliest gaps
-
-→ **new copy per block**: hero with a trust line, logos, problem, solution with a case per
-argument, lower-half sections; each block names the canvas cell and proof it uses, and blocks
-that already work are marked "keep"
-
-→ **remove list**: placeholders, unverified logos, anonymous quotes, numbers without a source,
-links to empty pages
-
-→ **pre-ship checklist** and **questions** only the company can answer (logo permission, the
-source of a number, a missing timeframe)
-
-## The trust rules
-
-| Rule | What it checks |
-|---|---|
-| T1 | Every case: who, result as a number, timeframe |
-| T2 | Logos = paying clients with permission; quotes with name, role, company; independent review links (Clutch, G2, LinkedIn recommendations) |
-| T3 | No placeholders: "coming soon", empty cards, `0+` counters, links to empty sections |
-| T4 | Proof sits in the same block as the promise it backs |
-| T5 | Every promise links to a page where it can be checked |
-| T6 | A human voice: no hype words, no AI tells |
-
-The skill never invents a case, a number, a quote or a logo. If the proof is thin, the copy
-says less and the questions list grows.
+0. **Proof bank and canvas**: every case, number and testimonial found on your site, with its
+   source, plus the copy canvas. Inner pages reuse them.
+1. **Diagnosis**: clarity score 0-50, trust score 0-12 (rules T1-T6), the three costliest gaps.
+2. **New copy per block**: hero, logos, problem, solution, lower-half sections. Each block has a
+   one-line rationale saying which proof it uses.
+3. **Remove list**: placeholders, unverified logos, numbers without a source.
+4. **Pre-ship checklist** with "now" and "after" columns.
+5. **Questions** only the company can answer (permission for a logo, the source of a number).
 
 ## Install
 
 ```bash
-npx skills add victor-shulga/homepage-rewrite
+npx skills add victor-shulga/homepage-rewrite/skills/homepage-rewrite
 ```
 
-Then in Claude: "rewrite the homepage of https://linear.app", "why doesn't our homepage
-convert", "перепиши головну stripe.com".
+Add `-g` to make it available in every project. Then in Claude Code:
+
+```
+/homepage-rewrite https://your-site.com
+```
 
 ## Requirements & integrations
 
-| Integration | Used for | Required? | Auth / setup |
+| Integration | Used for | Required? | Auth/setup |
 |---|---|---|---|
-| Claude Code (or any client that loads skills) | running the skill | yes | claude.com/claude-code |
-| A web fetch tool (built-in fetch, Firecrawl or similar) | reading the current homepage and the pages behind its cases | yes, unless you paste the copy | whatever the session already has |
-| `anticopywriting-ai` skill | the final edit for AI tells | optional | `npx skills add victor-shulga/gtm-skills` |
-
-No API keys, no accounts, no scripts.
+| Claude Code (or Claude with skills) | runs the skill | Yes | none |
+| A web fetch tool (built-in WebFetch, Firecrawl or similar) | reading the current homepage and case pages | Yes, or paste the text | none for WebFetch |
+| `anticopywriting-ai` skill | the anti-AI-tell edit of the new copy | Optional | `npx skills add victor-shulga/gtm-skills/anticopywriting-ai` |
+| Google Drive connector | saving the result as a Google Doc | Optional | connector in your Claude settings |
 
 ## Works with
 
 - [`website-audit`](https://github.com/victor-shulga/website-audit): technical and mobile audit of
-  the same site, before and after the rewrite ships
-- [`page-builder`](https://github.com/victor-shulga/page-builder): service, industry and case pages
-  built from the same proof bank and canvas
+  the same site. Run it after the rewrite ships.
+- [`page-builder`](https://github.com/victor-shulga/page-builder): service, industry and case
+  pages from the same proof bank.
 - `website` in [`marketing-engine-skills`](https://github.com/victor-shulga/marketing-engine-skills):
-  one flow from audit through this skill and page-builder to a second audit
-
-## Credits
-
-The homepage canvas and the idea of judging a homepage by the questions a buyer must be able to
-answer are adapted from a published SaaS homepage messaging framework by two product-marketing
-consultants. The trust track, the proof bank and the service-business adaptation are by Victor
-Shulga.
-
-Part of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO).
-Every skill in the stack: [CATALOG.md](https://github.com/victor-shulga/max/blob/main/CATALOG.md).
+  one flow: a baseline audit, then homepage-rewrite, then page-builder, then the audit again.
 
 ## License
 
-MIT © Victor Shulga. See `LICENSE`.
+MIT. Method by Victor Shulga, [victorshulga.com](https://victorshulga.com). Credits for the
+underlying homepage canvas are in `SKILL.md`.
