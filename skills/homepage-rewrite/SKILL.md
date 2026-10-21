@@ -125,7 +125,7 @@ Do not publish anything to the live site yourself.
 - `website-audit`: technical and mobile audit of the same site. Run it after the rewrite ships.
 - `page-builder`: service, industry and case pages built from the same canvas and proof bank.
 - `website-copy-reframe` (pack `marketing-engine-skills`): messaging audit and service pages.
-- `website-engine` (pack `marketing-engine-skills`): one flow from a baseline audit through this
+- `website` (pack `marketing-engine-skills`): one flow from a baseline audit through this
   skill and page-builder to a second audit.
 
 ## Reference files

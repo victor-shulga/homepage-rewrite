@@ -51,7 +51,7 @@ Add `-g` to make it available in every project. Then in Claude Code:
   the same site. Run it after the rewrite ships.
 - [`page-builder`](https://github.com/victor-shulga/page-builder): service, industry and case
   pages from the same proof bank.
-- `website-engine` in [`marketing-engine-skills`](https://github.com/victor-shulga/marketing-engine-skills):
+- `website` in [`marketing-engine-skills`](https://github.com/victor-shulga/marketing-engine-skills):
   one flow: a baseline audit, then homepage-rewrite, then page-builder, then the audit again.
 
 ## License
