@@ -55,7 +55,7 @@ no rule-of-three punch lines, no em-dash cascades, no "cutting-edge / world-clas
 
 ## Diagnosis table (trust half)
 
-Score each rule 0–2 (0 = broken, 1 = partial, 2 = solid). Max 12.
+Score each rule 0-2 (0 = broken, 1 = partial, 2 = solid). Max 12.
 
 | Rule | Score | Evidence on the current page | Fix |
 | --- | --- | --- | --- |

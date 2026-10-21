@@ -50,8 +50,8 @@ Unverified items do not go into the new copy; they go into the questions list.
 
 ## Step 3. Canvas
 
-Fill the canvas in `reference/framework.md` and `reference/copy-blocks.md` for ONE primary
-audience: audience, champion (the person close to the pain who pushes the deal), situation,
+Fill the canvas table in `reference/copy-blocks.md` (the reasoning behind each cell is in
+`reference/framework.md`) for ONE primary audience: audience, champion (the person close to the pain who pushes the deal), situation,
 current way, limitations, problems, then capabilities, features, benefits. Capabilities improve
 the limitations; benefits remove the problems. Default to a vertical position.
 
@@ -74,9 +74,7 @@ Close with the **three costliest gaps** across both tracks, each as
 Templates in `reference/copy-blocks.md`. Every block gets a one-line rationale naming the canvas
 cell (clarity) and the proof-bank row (trust) it uses.
 
-- **Hero**: service category + H1 (a capability for a named audience) + sub
-  (how it works, plus the benefit) + CTA + trust line (one named result or a review score, with
-  its link).
+- **Hero**: the hero template in `reference/copy-blocks.md`, ending with a trust line (rule T4).
 - **Logos**: paying clients only, with permission.
 - **Problem**: current way, limitations, problems. Keep what already works.
 - **Solution**: three arguments, each with its own matching case or number from the proof bank.
